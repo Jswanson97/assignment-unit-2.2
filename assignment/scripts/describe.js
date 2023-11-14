@@ -27,9 +27,9 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 // we are declaring that number = 1
-// we are then adding 1 to it
-// then we are saying that if number is greater than or equal to 2
-//the console will say yes
+// we are then adding 1 to it so number is now 2
+// then we are saying that if number is greater than or equal to 2, we want to console.log 'yes'
+// since the value of number is 2 which is >= 2 the if statement will run and we will see 'yes' in the console.
 
 //CODE
 /*
@@ -70,11 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// we make secret but dont assign it to anything
-// then says that code = 123 and that if code = 123 then secret is equal to super and code is now = to code multiplied by 2
-// it then says that if code is greater than 250 to assign secret to duper but since 123 x 2 = 246 it wont do that
-// the console will display super
-
+// We make secret but dont assign it any value, we also create code and assign it to 123
+// we then make an if statement that will check if code is equal to 123 and if it is, it will then assign secret so 'super' and will multiply code by 2
+// the next if statement check to see if code is greater than 250, which it isnt since 123 * 2 = 246 so this code will not run
+// the console will display the string 'super'
 //CODE
 /*
 let isStudent = true;
