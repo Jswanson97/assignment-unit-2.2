@@ -7,10 +7,10 @@
 
 
 // 0. WRITE YOUR DESCRIPTION HERE
-// //EXAMPLE. We make a variable called number and set it to 1 as a number.
-// Then we increment the number variable. Number is now 2.
-// We check if number is greater than or equal to 2. 2 is equal to 2, so
-// we console.log 'yes'.
+// we assign number to 1
+// number ++ increases the count of number to 2
+// the if statement says that if number is greater than or equal to 2, then console log yes
+// we console log 'yes'
 
 //CODE
 /*
@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// we are declaring that number = 1
-// we are then adding 1 to it so number is now 2
-// then we are saying that if number is greater than or equal to 2, we want to console.log 'yes'
-// since the value of number is 2 which is >= 2 the if statement will run and we will see 'yes' in the console.
+// we assign name to 'Dane'
+// the if statement says that if name is equal to marry we will console log 'Hi, Mary!'
+// the else statment says for everything else we will console log 'How do you do?'
+// we console log 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// name is declared to = Dane
-// then it is saying that if name equals Mary the console will say Hi Marry
-// and if its anything else it will say how do you do
-//
+// we declare secret but dont assign it to anything, we also code to 123
+// the if statement says that if code is equal to 123 secret will be assigned to super, and code will equal code x 2
+// the next if statement says that if code is greater than 250 secret will be assigned to duper now
+// 123 x 2 is 246 so we console log secret which is now 'super'
 
 //CODE
 /*
@@ -70,10 +70,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// We make secret but dont assign it any value, we also create code and assign it to 123
-// we then make an if statement that will check if code is equal to 123 and if it is, it will then assign secret so 'super' and will multiply code by 2
-// the next if statement check to see if code is greater than 250, which it isnt since 123 * 2 = 246 so this code will not run
-// the console will display the string 'super'
+// we assign isStudent to a boolean of true, age to 34 and zip to 55407
+// the if statement says that if student is equal to true and zip is greater than 80000, then we will console log 'You're a student on the West Coast!`
+// else if 'isStudent' is equal to false or age is less than 30 we will console log 'What are your hobbies?'
+// else if 'isStudent' is equal to true we will console log 'Welcome to Prime!'
+//and if none of those are true the last else says we will console log 'How about the weather?'
+// we will console log 'How about the weather?'
+
 //CODE
 /*
 let isStudent = true;
@@ -90,12 +93,6 @@ if (isStudent === true && zip > 80000 ) {
   console.log('How about the weather?')
 }
 
-*/
-//isStudent is assigned to true, age is assigned to 34 and zip is assigned to 55407
-//it then says that if isStudent equals true and zip is greater than 80000 then console will say youre a student on the west coast
-//it then says if student = false or age is less than 30 console will say what are your hobbies
-//then it says if isStudent = true console will say welcome to Prime
-//if none of these happen console will say how about the weather
 
 // REVERSE
 // Now, for questions 4-6, we'll give you a description and some code. 
@@ -131,6 +128,7 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+/// FIX colorOne needs to be changed to blue and colorTwo needs to be changed red
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
